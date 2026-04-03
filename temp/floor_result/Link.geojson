@@ -1,0 +1,2278 @@
+{
+  "type": "FeatureCollection",
+  "name": 1394594054,
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132294579,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 28.888095795005274,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            50.414994705,
+            126.538247555
+          ],
+          [
+            50.414994705,
+            126.538247555
+          ],
+          [
+            51.963707915,
+            134.178505584
+          ],
+          [
+            52.392067561,
+            135.676433599
+          ],
+          [
+            53.049480958,
+            137.088909421
+          ],
+          [
+            53.919760406,
+            138.381153208
+          ],
+          [
+            54.981476737,
+            139.521345632
+          ],
+          [
+            56.208486965,
+            140.481411368
+          ],
+          [
+            57.570578034,
+            141.237710413
+          ],
+          [
+            59.034210739,
+            141.771620174
+          ],
+          [
+            60.563345584,
+            142.06999402
+          ],
+          [
+            62.120330193,
+            142.125484999
+          ],
+          [
+            63.66682644,
+            141.936726736
+          ],
+          [
+            63.66682644,
+            141.936726736
+          ],
+          [
+            69.071446403,
+            140.850367859
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132233745,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 28.888095795005274,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            69.071446403,
+            140.850367859
+          ],
+          [
+            63.66682644,
+            141.936726736
+          ],
+          [
+            63.66682644,
+            141.936726736
+          ],
+          [
+            62.120330193,
+            142.125484999
+          ],
+          [
+            60.563345584,
+            142.06999402
+          ],
+          [
+            59.034210739,
+            141.771620174
+          ],
+          [
+            57.570578034,
+            141.237710413
+          ],
+          [
+            56.208486965,
+            140.481411368
+          ],
+          [
+            54.981476737,
+            139.521345632
+          ],
+          [
+            53.919760406,
+            138.381153208
+          ],
+          [
+            53.049480958,
+            137.088909421
+          ],
+          [
+            52.392067561,
+            135.676433599
+          ],
+          [
+            51.963707915,
+            134.178505584
+          ],
+          [
+            50.414994705,
+            126.538247555
+          ],
+          [
+            50.414994705,
+            126.538247555
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132262485,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 87.88455343661781,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            67.922400891,
+            76.607325477
+          ],
+          [
+            154.055210489,
+            59.147833975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132294365,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 87.88455343661781,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            154.055210489,
+            59.147833975
+          ],
+          [
+            67.922400891,
+            76.607325477
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132287921,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 17.117589084425706,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            154.055210489,
+            59.147833975
+          ],
+          [
+            170.831606155,
+            55.747186313
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132286105,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 17.117589084425706,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            170.831606155,
+            55.747186313
+          ],
+          [
+            154.055210489,
+            59.147833975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132204792,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 19.579236117070728,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            170.831606155,
+            55.747186313
+          ],
+          [
+            190.020582495,
+            51.857498157
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132230958,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 19.579236117070728,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            190.020582495,
+            51.857498157
+          ],
+          [
+            170.831606155,
+            55.747186313
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132294619,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 28.2868155208023,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            188.607060332,
+            87.217022259
+          ],
+          [
+            160.884066927,
+            92.836592436
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132282075,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 28.2868155208023,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            160.884066927,
+            92.836592436
+          ],
+          [
+            188.607060332,
+            87.217022259
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132226678,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 34.373910555745816,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            160.884066927,
+            92.836592436
+          ],
+          [
+            160.884066927,
+            92.836592436
+          ],
+          [
+            154.055210489,
+            59.147833975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132275772,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 34.373910555745816,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            154.055210489,
+            59.147833975
+          ],
+          [
+            160.884066927,
+            92.836592436
+          ],
+          [
+            160.884066927,
+            92.836592436
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132276946,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 30.938935970077345,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.843958726,
+            125.555543457
+          ],
+          [
+            77.843958726,
+            125.555543457
+          ],
+          [
+            71.697667604,
+            95.233260159
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132210736,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 30.938935970077345,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.697667604,
+            95.233260159
+          ],
+          [
+            77.843958726,
+            125.555543457
+          ],
+          [
+            77.843958726,
+            125.555543457
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132284060,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 36.10388854873318,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.697667604,
+            95.233260159
+          ],
+          [
+            64.52531333,
+            59.848968411
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132261415,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 36.10388854873318,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            64.52531333,
+            59.848968411
+          ],
+          [
+            71.697667604,
+            95.233260159
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132235141,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 17.93524287874497,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            64.52531333,
+            59.848968411
+          ],
+          [
+            60.96231995,
+            42.271197924
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132293305,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 17.93524287874497,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            60.96231995,
+            42.271197924
+          ],
+          [
+            64.52531333,
+            59.848968411
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132288476,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 17.09920277106222,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            170.831606156,
+            55.747186317
+          ],
+          [
+            170.831606155,
+            55.747186313
+          ],
+          [
+            167.434611193,
+            38.988810482
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132252220,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 17.09920277106222,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            167.434611193,
+            38.988810482
+          ],
+          [
+            170.831606155,
+            55.747186313
+          ],
+          [
+            170.831606156,
+            55.747186317
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132271576,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 16.84848132173659,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            167.434611193,
+            38.988810482
+          ],
+          [
+            164.08742554,
+            22.476158634
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132231076,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 16.84848132173659,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            164.08742554,
+            22.476158634
+          ],
+          [
+            167.434611193,
+            38.988810482
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132290413,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 105.00223700225857,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            167.434611193,
+            38.988810482
+          ],
+          [
+            167.434611193,
+            38.988810482
+          ],
+          [
+            64.52531333,
+            59.848968411
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132292095,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 105.00223700225857,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            64.52531333,
+            59.848968411
+          ],
+          [
+            167.434611193,
+            38.988810482
+          ],
+          [
+            167.434611193,
+            38.988810482
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132253666,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 9.448436717496534e-05,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            64.52531333,
+            59.848968411
+          ],
+          [
+            64.525405931,
+            59.84894964
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132201252,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 9.448436717496534e-05,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            64.525405931,
+            59.84894964
+          ],
+          [
+            64.52531333,
+            59.848968411
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132211020,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 44.66862496013334,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            186.935818733,
+            48.491992518
+          ],
+          [
+            182.164086806,
+            24.951634676
+          ],
+          [
+            181.904474898,
+            24.043799517
+          ],
+          [
+            181.506042536,
+            23.187753564
+          ],
+          [
+            180.978600447,
+            22.40457551
+          ],
+          [
+            180.335136006,
+            21.7135498
+          ],
+          [
+            179.591493442,
+            21.131691778
+          ],
+          [
+            178.765983703,
+            20.67332872
+          ],
+          [
+            177.878933581,
+            20.349747048
+          ],
+          [
+            176.95218519,
+            20.168914413
+          ],
+          [
+            176.008558154,
+            20.135283518
+          ],
+          [
+            175.071287702,
+            20.249682464
+          ],
+          [
+            175.071287702,
+            20.249682464
+          ],
+          [
+            164.08742554,
+            22.476158634
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132248873,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 44.66862496013335,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            164.08742554,
+            22.476158634
+          ],
+          [
+            175.071287702,
+            20.249682464
+          ],
+          [
+            175.071287702,
+            20.249682464
+          ],
+          [
+            176.008558154,
+            20.135283518
+          ],
+          [
+            176.95218519,
+            20.168914413
+          ],
+          [
+            177.878933581,
+            20.349747048
+          ],
+          [
+            178.765983703,
+            20.67332872
+          ],
+          [
+            179.591493442,
+            21.131691778
+          ],
+          [
+            180.335136006,
+            21.7135498
+          ],
+          [
+            180.978600447,
+            22.40457551
+          ],
+          [
+            181.506042536,
+            23.187753564
+          ],
+          [
+            181.904474898,
+            24.043799517
+          ],
+          [
+            182.164086806,
+            24.951634676
+          ],
+          [
+            186.935818733,
+            48.491992518
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132229042,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 105.06559561229291,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            164.08742554,
+            22.476158634
+          ],
+          [
+            119.031388764,
+            31.609211356
+          ],
+          [
+            118.960638152,
+            31.623112031
+          ],
+          [
+            118.889726055,
+            31.636163943
+          ],
+          [
+            118.818662656,
+            31.648365224
+          ],
+          [
+            118.747458158,
+            31.659714116
+          ],
+          [
+            118.676122784,
+            31.670208991
+          ],
+          [
+            118.604666778,
+            31.679848343
+          ],
+          [
+            118.5331004,
+            31.688630788
+          ],
+          [
+            118.461433925,
+            31.696555063
+          ],
+          [
+            118.389677641,
+            31.703620034
+          ],
+          [
+            118.317841855,
+            31.709824684
+          ],
+          [
+            118.317841855,
+            31.709824684
+          ],
+          [
+            109.975460266,
+            32.380048981
+          ],
+          [
+            109.903624477,
+            32.386253631
+          ],
+          [
+            109.831868196,
+            32.393318601
+          ],
+          [
+            109.760201719,
+            32.401242877
+          ],
+          [
+            109.688635342,
+            32.410025321
+          ],
+          [
+            109.617179335,
+            32.419664675
+          ],
+          [
+            109.54584396,
+            32.430159549
+          ],
+          [
+            109.474639463,
+            32.44150844
+          ],
+          [
+            109.403576063,
+            32.45370972
+          ],
+          [
+            109.332663967,
+            32.466761633
+          ],
+          [
+            109.261913355,
+            32.480662308
+          ],
+          [
+            109.261913355,
+            32.480662308
+          ],
+          [
+            60.96231995,
+            42.271197924
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132211582,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 105.06559561229292,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            60.96231995,
+            42.271197924
+          ],
+          [
+            109.261913355,
+            32.480662308
+          ],
+          [
+            109.261913355,
+            32.480662308
+          ],
+          [
+            109.332663967,
+            32.466761633
+          ],
+          [
+            109.403576063,
+            32.45370972
+          ],
+          [
+            109.474639463,
+            32.44150844
+          ],
+          [
+            109.54584396,
+            32.430159549
+          ],
+          [
+            109.617179335,
+            32.419664675
+          ],
+          [
+            109.688635342,
+            32.410025321
+          ],
+          [
+            109.760201719,
+            32.401242877
+          ],
+          [
+            109.831868196,
+            32.393318601
+          ],
+          [
+            109.903624477,
+            32.386253631
+          ],
+          [
+            109.975460266,
+            32.380048981
+          ],
+          [
+            118.317841855,
+            31.709824684
+          ],
+          [
+            118.317841855,
+            31.709824684
+          ],
+          [
+            118.389677641,
+            31.703620034
+          ],
+          [
+            118.461433925,
+            31.696555063
+          ],
+          [
+            118.5331004,
+            31.688630788
+          ],
+          [
+            118.604666778,
+            31.679848343
+          ],
+          [
+            118.676122784,
+            31.670208991
+          ],
+          [
+            118.747458158,
+            31.659714116
+          ],
+          [
+            118.818662656,
+            31.648365224
+          ],
+          [
+            118.889726055,
+            31.636163943
+          ],
+          [
+            118.960638152,
+            31.623112031
+          ],
+          [
+            119.031388764,
+            31.609211356
+          ],
+          [
+            164.08742554,
+            22.476158634
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132267381,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 64.56752747906495,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            60.96231995,
+            42.271197924
+          ],
+          [
+            16.551403723,
+            51.273481926
+          ],
+          [
+            16.221013473,
+            51.350207326
+          ],
+          [
+            15.895471211,
+            51.445426771
+          ],
+          [
+            15.575811295,
+            51.55883772
+          ],
+          [
+            15.263049383,
+            51.690079831
+          ],
+          [
+            14.958179217,
+            51.838736104
+          ],
+          [
+            14.662169468,
+            52.004334213
+          ],
+          [
+            14.37596065,
+            52.186348001
+          ],
+          [
+            14.100462141,
+            52.38419915
+          ],
+          [
+            13.836549287,
+            52.597259026
+          ],
+          [
+            13.585060621,
+            52.824850671
+          ],
+          [
+            13.585060621,
+            52.824850671
+          ],
+          [
+            2.129035344,
+            63.795220414
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132246092,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 64.56752747906495,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.129035344,
+            63.795220414
+          ],
+          [
+            13.585060621,
+            52.824850671
+          ],
+          [
+            13.585060621,
+            52.824850671
+          ],
+          [
+            13.836549287,
+            52.597259026
+          ],
+          [
+            14.100462141,
+            52.38419915
+          ],
+          [
+            14.37596065,
+            52.186348001
+          ],
+          [
+            14.662169468,
+            52.004334213
+          ],
+          [
+            14.958179217,
+            51.838736104
+          ],
+          [
+            15.263049383,
+            51.690079831
+          ],
+          [
+            15.575811295,
+            51.55883772
+          ],
+          [
+            15.895471211,
+            51.445426771
+          ],
+          [
+            16.221013473,
+            51.350207326
+          ],
+          [
+            16.551403723,
+            51.273481926
+          ],
+          [
+            60.96231995,
+            42.271197924
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132223283,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 18.051944276130072,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.983910981,
+            88.080586644
+          ],
+          [
+            106.983910981,
+            88.080586644
+          ],
+          [
+            89.291783998,
+            91.666856986
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132293743,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 18.051944276130072,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            89.291783998,
+            91.666856986
+          ],
+          [
+            106.983910981,
+            88.080586644
+          ],
+          [
+            106.983910981,
+            88.080586644
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132274597,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 17.951940376405105,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            89.291783998,
+            91.666856986
+          ],
+          [
+            71.697667604,
+            95.233260159
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132211396,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 17.951940376405105,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.697667604,
+            95.233260159
+          ],
+          [
+            89.291783998,
+            91.666856986
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132222890,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 18.15194817761652,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.697667604,
+            95.233260159
+          ],
+          [
+            53.90753003,
+            98.839397669
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132279462,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 18.15194817761652,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            53.90753003,
+            98.839397669
+          ],
+          [
+            71.697667604,
+            95.233260159
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132256627,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 18.051944277110145,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            53.90753003,
+            98.839397669
+          ],
+          [
+            36.215403046,
+            102.425668011
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132253995,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 18.051944277110145,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.215403046,
+            102.425668011
+          ],
+          [
+            53.90753003,
+            98.839397669
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132287950,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 17.516505981510317,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.463809041,
+            105.247947865
+          ],
+          [
+            106.983910981,
+            88.080586644
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132203085,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 17.516505981510317,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.983910981,
+            88.080586644
+          ],
+          [
+            110.463809041,
+            105.247947865
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132256152,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 17.51650598111299,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            92.771682056,
+            108.834218207
+          ],
+          [
+            89.291783998,
+            91.666856986
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132242317,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 17.51650598111299,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            89.291783998,
+            91.666856986
+          ],
+          [
+            92.771682056,
+            108.834218207
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132276409,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 26.45290647490824,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            59.162768602,
+            124.765036109
+          ],
+          [
+            59.162768602,
+            124.765036109
+          ],
+          [
+            53.90753003,
+            98.839397669
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132283038,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 26.45290647490824,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            53.90753003,
+            98.839397669
+          ],
+          [
+            59.162768602,
+            124.765036109
+          ],
+          [
+            59.162768602,
+            124.765036109
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132265820,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 8.925683558431814,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            59.162768602,
+            124.765036109
+          ],
+          [
+            59.162768602,
+            124.765036109
+          ],
+          [
+            50.414994705,
+            126.538247555
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132288528,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 8.925683558431814,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            50.414994705,
+            126.538247555
+          ],
+          [
+            59.162768602,
+            124.765036109
+          ],
+          [
+            59.162768602,
+            124.765036109
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132254069,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 9.126260718479667,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            50.414994705,
+            126.538247555
+          ],
+          [
+            41.470641618,
+            128.35130645
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132220112,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 9.126260718479667,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            41.470641618,
+            128.35130645
+          ],
+          [
+            50.414994705,
+            126.538247555
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132291339,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 26.452906473928184,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            41.470641618,
+            128.35130645
+          ],
+          [
+            41.470641618,
+            128.35130645
+          ],
+          [
+            36.215403046,
+            102.425668011
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132268441,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 26.452906473928184,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.215403046,
+            102.425668011
+          ],
+          [
+            41.470641618,
+            128.35130645
+          ],
+          [
+            41.470641618,
+            128.35130645
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132237269,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 10.794507750710483,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.215403046,
+            102.425668011
+          ],
+          [
+            36.215403046,
+            102.425668011
+          ],
+          [
+            34.123222518,
+            91.835853177
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132273777,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 10.794507750710483,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.123222518,
+            91.835853177
+          ],
+          [
+            36.215403046,
+            102.425668011
+          ],
+          [
+            36.215403046,
+            102.425668011
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132251274,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 18.889345357673886,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            70.743677234,
+            140.5022186
+          ],
+          [
+            72.241605249,
+            140.073858951
+          ],
+          [
+            73.654081071,
+            139.416445554
+          ],
+          [
+            74.94632486,
+            138.546166107
+          ],
+          [
+            76.086517283,
+            137.484449778
+          ],
+          [
+            77.04658302,
+            136.257439547
+          ],
+          [
+            77.802882066,
+            134.895348478
+          ],
+          [
+            78.336791827,
+            133.431715775
+          ],
+          [
+            78.635165673,
+            131.90258093
+          ],
+          [
+            78.690656653,
+            130.34559632
+          ],
+          [
+            78.501898389,
+            128.799100074
+          ],
+          [
+            78.501898389,
+            128.799100074
+          ],
+          [
+            77.843958726,
+            125.555543457
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkID": 132200313,
+        "FrontLinkIDs": [],
+        "SuccessorLinkIDs": [],
+        "FloorID": null,
+        "BidirectionalRoadIDs": [],
+        "LinkType": null,
+        "LaneLineIDs": [],
+        "LinkLength": 18.889345357673886,
+        "StartLinkNodeID": null,
+        "EndLinkNodeID": null,
+        "two_sided": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.843958726,
+            125.555543457
+          ],
+          [
+            78.501898389,
+            128.799100074
+          ],
+          [
+            78.501898389,
+            128.799100074
+          ],
+          [
+            78.690656653,
+            130.34559632
+          ],
+          [
+            78.635165673,
+            131.90258093
+          ],
+          [
+            78.336791827,
+            133.431715775
+          ],
+          [
+            77.802882066,
+            134.895348478
+          ],
+          [
+            77.04658302,
+            136.257439547
+          ],
+          [
+            76.086517283,
+            137.484449778
+          ],
+          [
+            74.94632486,
+            138.546166107
+          ],
+          [
+            73.654081071,
+            139.416445554
+          ],
+          [
+            72.241605249,
+            140.073858951
+          ],
+          [
+            70.743677234,
+            140.5022186
+          ]
+        ]
+      }
+    }
+  ]
+}

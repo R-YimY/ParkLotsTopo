@@ -1,0 +1,454 @@
+{
+  "type": "FeatureCollection",
+  "name": 1394594054,
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122293109,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.414994705,
+          126.538247555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122230737,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.071446403,
+          140.850367859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122270493,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.922400891,
+          76.607325477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122278360,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.055210489,
+          59.147833975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122272224,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.831606155,
+          55.747186313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122230540,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190.020582495,
+          51.857498157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122297228,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          188.607060332,
+          87.217022259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122209655,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.884066927,
+          92.836592436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122274708,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.843958726,
+          125.555543457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122277103,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.697667604,
+          95.233260159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122225401,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.52531333,
+          59.848968411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122292814,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.96231995,
+          42.271197924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122242841,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.831606156,
+          55.747186317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122229988,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.434611193,
+          38.988810482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122238885,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          164.08742554,
+          22.476158634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122286678,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.525405931,
+          59.84894964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122285218,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186.935818733,
+          48.491992518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122294147,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.129035344,
+          63.795220414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122219889,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.983910981,
+          88.080586644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122294727,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.291783998,
+          91.666856986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122251578,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.90753003,
+          98.839397669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122209349,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.215403046,
+          102.425668011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122241636,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.463809041,
+          105.247947865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122234084,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.771682056,
+          108.834218207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122221719,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.162768602,
+          124.765036109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122293807,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.470641618,
+          128.35130645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122246757,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.123222518,
+          91.835853177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "LinkNodeID": 122272086,
+        "FloorID": null,
+        "AssociatedPOIIDs": [],
+        "AssociatedJunctionID": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.743677234,
+          140.5022186
+        ]
+      }
+    }
+  ]
+}
