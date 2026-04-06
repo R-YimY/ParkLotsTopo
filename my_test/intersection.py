@@ -4,67 +4,7 @@ import matplotlib.pyplot as plt
 import json,os
 import pymap3d
 import numpy as np
-
-# ========== 基础几何类（内部支持，不对外暴露） ==========
-class Point2D:
-    def __init__(self, x: float, y: float, eps: float = 1e-6):
-        self.x = round(x, 9)
-        self.y = round(y, 9)
-        self._eps = eps
-
-    def __eq__(self, other):
-        return (abs(self.x - other.x) < self._eps and
-                abs(self.y - other.y) < self._eps)
-
-    def __hash__(self):
-        return hash((self.x, self.y))
-
-    def to_tuple(self) -> Tuple[float, float]:
-        return (self.x, self.y)
-
-    def get_point_geom(self):
-        return Point(self.x, self.y)
-
-    def __repr__(self):
-        return f"Point2D({self.x:.6f}, {self.y:.6f})"
-
-class Segment2D:
-    def __init__(self, start: Point2D, end: Point2D, poly_idx: int, seg_idx: int):
-        self.start = start
-        self.end = end
-        self.poly_idx = poly_idx
-        self.seg_idx = seg_idx
-
-    def get_seg_geom(self):
-        linecoords = [(self.start.x, self.start.y), (self.end.x, self.end.y)]
-        return LineString(linecoords)
-
-    def __repr__(self):
-        return f"Segment2D(poly_idx={self.poly_idx}, seg_idx={self.seg_idx})"
-
-class Polyline2D:
-    def __init__(self, vertices: List[Tuple[float, float]], poly_idx: int):
-        self.poly_idx = poly_idx
-        self.points = [Point2D(x, y) for x, y in vertices]
-        self.segments = self._split_to_segments()
-        self.start = self.points[0]
-        self.end = self.points[-1]
-    
-    def _split_to_segments(self) -> List[Segment2D]:
-        segments = []
-        for i in range(len(self.points) - 1):
-            seg = Segment2D(
-                self.points[i], self.points[i+1], self.poly_idx, i
-            )
-            segments.append(seg)
-        return segments
-
-    def get_line_geom(self):
-        linecoords = [(pt.x, pt.y) for pt in self.points]
-        return LineString(linecoords)
-
-    def __repr__(self):
-        return f"Polyline2D(poly_idx={self.poly_idx}, vertices={[p.to_tuple() for p in self.points]})"
+from geometry import Point2D, Segment2D, Polyline2D
 
 # ========== 最终封装类：仅保留两个核心对外接口 ==========
 class IntersectionFinder:
@@ -128,12 +68,12 @@ class IntersectionFinder:
             return None
         # 相交判断
         inter = seg_a_geom.intersection(seg_b_geom)
-        if inter.geom_type != 'Point':
+        if str(inter.geom_type).upper() != 'POINT':
             # 即距离接近，但是不相交,延长求交点
             seg_a_geom_extend = extend_line(seg_a_geom)
             seg_b_geom_extend = extend_line(seg_b_geom)
             new_inter = seg_a_geom_extend.intersection(seg_b_geom_extend)
-            if new_inter.geom_type != 'Point':
+            if str(new_inter.geom_type).upper() != 'POINT':
                 return None
             result = new_inter
 
@@ -234,7 +174,18 @@ class IntersectionFinder:
     def _split_polyline_at_intersections(self, polyline: Polyline2D) -> List[Polyline2D]:
         new_vertices = self._insert_intersections_to_polyline(polyline)
         
-        if len(new_vertices) == len(polyline.points):
+        # 检查是否有交点在这条多段线上（包括原始顶点中的交点）
+        has_intersection_on_this_poly = False
+        for inter_pt in self._intersections:
+            for info in self._intersections[inter_pt]:
+                if info['poly_idx'] == polyline.poly_idx:
+                    has_intersection_on_this_poly = True
+                    break
+            if has_intersection_on_this_poly:
+                break
+        
+        # 如果没有插入新顶点且没有内部交点，则不需要拆分
+        if len(new_vertices) == len(polyline.points) and not has_intersection_on_this_poly:
             return [polyline]
 
         sub_polylines = []
@@ -330,7 +281,7 @@ class IntersectionFinder:
         for idx, poly in enumerate(self._split_polylines):
             x, y = zip(*[p.to_tuple() for p in poly.points])
             color = split_colors[idx % len(split_colors)]
-            ax2.plot(x, y, color=color, linewidth=2.5, label=f'子多段线 [{idx}]')
+            ax2.plot(x, y, color=color, linewidth=2.5, label=f'sub line: [{idx}]')
             # 标注编号
             if len(poly.points) >= 2:
                 mid_pt = poly.points[len(poly.points) // 2]
@@ -342,7 +293,7 @@ class IntersectionFinder:
         for inter_pt in self._intersections.keys():
             ax2.scatter(inter_pt.x, inter_pt.y, c='red', s=150, zorder=10, edgecolors='black', linewidth=2)
             conn = self._point_to_subpolys.get(inter_pt, [])
-            ax2.text(inter_pt.x, inter_pt.y + 0.15, f"连: {conn}", 
+            ax2.text(inter_pt.x, inter_pt.y + 0.15, f"connected: {conn}", 
                      fontsize=10, ha='center', bbox=dict(facecolor='yellow', alpha=0.9, edgecolor='orange', boxstyle='round,pad=0.3'))
         
         ax2.legend(bbox_to_anchor=(1.02, 1), loc='upper left', fontsize=10)
@@ -362,28 +313,49 @@ def lonlat_to_enu(trans_pt,ref_pt ):
     lon, lat = trans_pt
     ref_lon, ref_lat = ref_pt
     x, y, _ = pymap3d.geodetic2enu(lat, lon, 0.0, ref_lat, ref_lon, 0.0)
-    return [x, y]
+    return [float(x), float(y)]
+
+
+
+def load_geojson_centerlines(geojson_file: str = "data/b1.geojson", target_entity: str = "车道中心线") -> List[List[Tuple[float, float]]]:
+    """从GeoJSON文件中加载指定类型的线数据"""
+    with open(geojson_file, 'r') as pf:
+        data = json.load(pf)
+    
+    lines = []
+    for feature in data["features"]:
+        entity_name = feature["properties"]["entity_name"]
+        if feature["geometry"] is None:
+            continue
+        line = feature["geometry"]["coordinates"]
+        if entity_name == target_entity:
+            lines.append(line)
+
+    return lines
+
+def load_geojson_lines(geojson_file: str = "data/lines.geojson") -> List[List[Tuple[float, float]]]:
+    """从GeoJSON文件中加载所有线数据"""
+    with open(geojson_file, 'r') as pf:
+        data = json.load(pf)
+    
+    lines = []
+    for feature in data["features"]:
+        if feature["geometry"] is None:
+            continue
+        if feature["geometry"]["type"] == "LineString":
+            line = feature["geometry"]["coordinates"]
+            lines.append(line)
+
+    return lines
 
 
 # ========== 使用示例 ==========
 if __name__ == "__main__":
 
-    geojson_file = "data/b1.geojson"
-
-    with open(geojson_file,'r')as pf:
-        data = json.load(pf)
     
-    lines = list()
-    
-    for feature in data["features"]:
-        entity_name = feature["properties"]["entity_name"]
-        if feature["geometry"] is None:
-            continue
 
-        line = feature["geometry"]["coordinates"]
-
-        if entity_name=="车道中心线":
-            lines.append(line)
+    lines = load_geojson_centerlines()
+    # lines = load_geojson_lines()
 
     # 坐标转换,参考点为第一个点
     ref_gps =  lines[0][0]
@@ -393,12 +365,6 @@ if __name__ == "__main__":
         trans_coords = [lonlat_to_enu(pt,ref_gps) for pt in line]
         trans_lines.append(trans_coords)
 
-
-    # # 1. 准备输入
-    # input_data = [
-    #     [(0, 0), (1, 3), (2, 0), (3, 3), (4, 0)],    # 多段线0
-    #     [(0, 1.5), (1, -1.5), (2, 1.5), (3, -1.5), (4, 1.5)] # 多段线1
-    # ]
 
     # 2. 初始化并运行
     finder = IntersectionFinder(trans_lines)
