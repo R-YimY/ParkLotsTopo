@@ -38,6 +38,7 @@ class IntersectionFinder:
         self._point_to_subpolys: Dict[Point2D, List[int]] = {}
         self._has_run = False
 
+
     # -------------------------------------------------------------------------
     # 内部私有方法（不对外）
     # -------------------------------------------------------------------------
@@ -83,9 +84,8 @@ class IntersectionFinder:
         return result
 
 
-    def _find_all_intersections(self) -> Dict[Point2D, List[Dict]]:
+    def _find_all_intersections(self,eps = 1e-6) -> Dict[Point2D, List[Dict]]:
         intersections = {}
-        eps = 1e-6
         polylines = self._original_polylines
 
         for poly_a_idx in range(len(polylines)):
